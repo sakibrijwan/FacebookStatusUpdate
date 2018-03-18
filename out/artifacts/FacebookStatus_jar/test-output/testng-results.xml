@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalletHub Test Review" duration-ms="16230" started-at="2017-07-12T10:53:00Z" finished-at="2017-07-12T10:53:16Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="4" started-at="2017-07-12T10:53:00Z" finished-at="2017-07-12T10:53:00Z">
+    </test> <!-- LoginTest -->
+    <test name="Login" duration-ms="14824" started-at="2017-07-12T10:53:00Z" finished-at="2017-07-12T10:53:14Z">
+      <class name="testcases.testFacebookLoginPage">
+        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:testcases.testFacebookLoginPage@1f5659e]" name="test_Login" duration-ms="14240" started-at="2017-07-12T16:53:00Z" data-provider="empLogin" finished-at="2017-07-12T16:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testnilavo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nilavo2006]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+      </class> <!-- testcases.testFacebookLoginPage -->
+    </test> <!-- Login -->
+    <test name="Move Mouse to Rating" duration-ms="1326" started-at="2017-07-12T10:53:14Z" finished-at="2017-07-12T10:53:16Z">
+      <class name="testcases.Config">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Config@bb4df8]" name="setup" is-config="true" duration-ms="5445" started-at="2017-07-12T16:52:54Z" finished-at="2017-07-12T16:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.Config -->
+      <class name="testcases.testFacebookPostPage">
+        <test-method status="PASS" signature="test_Post()[pri:0, instance:testcases.testFacebookPostPage@1089e5f]" name="test_Post" duration-ms="974" started-at="2017-07-12T16:53:14Z" finished-at="2017-07-12T16:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Post -->
+        <test-method status="PASS" signature="test_clickPostButton()[pri:0, instance:testcases.testFacebookPostPage@1089e5f]" name="test_clickPostButton" duration-ms="350" started-at="2017-07-12T16:53:15Z" finished-at="2017-07-12T16:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickPostButton -->
+      </class> <!-- testcases.testFacebookPostPage -->
+    </test> <!-- Move Mouse to Rating -->
+  </suite> <!-- WalletHub Test Review -->
+</testng-results>

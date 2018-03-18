@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WalletHub Test Review]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="testcases.Config">
+        <methods>
+          <include name="setup"/>
+          <include name="driverQuite"/>
+        </methods>
+      </class> <!-- testcases.Config -->
+      <class name="testcases.testFacebookLoginPage">
+        <methods>
+          <include name="test_Login"/>
+        </methods>
+      </class> <!-- testcases.testFacebookLoginPage -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Move Mouse to Rating(failed)">
+    <classes>
+      <class name="testcases.Config">
+        <methods>
+          <include name="setup"/>
+          <include name="driverQuite"/>
+        </methods>
+      </class> <!-- testcases.Config -->
+      <class name="testcases.testFacebookPostPage">
+        <methods>
+          <include name="test_Post"/>
+          <include name="test_clickPostButton"/>
+        </methods>
+      </class> <!-- testcases.testFacebookPostPage -->
+    </classes>
+  </test> <!-- Move Mouse to Rating(failed) -->
+</suite> <!-- Failed suite [WalletHub Test Review] -->
